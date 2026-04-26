@@ -4,12 +4,12 @@
         <title>josiefinis projects</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="./gh-pages.css">
+        <link rel="stylesheet" type="text/css" href="gh-pages.css">
     </head>
     <body>
         <div id="top-nav-bar">
-            <a class="tnb-link" href="./index.html">home</a>
-            <a class="tnb-link" href="./projects.html">projects</a>
+            <a class="tnb-link" href="index.html">home</a>
+            <a class="tnb-link" href="projects.html">projects</a>
             <a class="tnb-link" href="">about</a>
             <a class="tnb-link" href="">contact</a>
         </div>
@@ -17,28 +17,50 @@
             <h1>Projects</h1>
             <div id="projects-intro">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                These are some of the programming projects I have worked on over the last few years.
                 </p>
             </div>
             <div id="projects-list">
                 <ul>
-                    <li><a href="#lanterns">Lanterns</a></li>
-                    <li><a href="#airlock">Airlock</a></li>
-                    <li><a href="#visual-odometry">Visual odometry</a></li>
-                    <li><a href="#quadcopter">Quadcopter</a></li>
+                    <li><a href="#webpage">Webpage</a> (HTML, CSS)</li>
+                    <li><a href="#lanterns">Lanterns</a> (C++, Arduino)</li>
+                    <li><a href="#airlock">Airlock</a> (Assembly)</li>
+                    <li><a href="#visual-odometry">Visual odometry</a> (Octave/MATLAB)</li>
+                    <li><a href="#quadcopter">Quadcopter</a> (Python, ROS)</li>
                 </ul>
+            </div>
+            <div id="webpage">
+                <h2>Webpage</h2>
+                <a class="code-link" href="https://github.com/josiefinis/josiefinis.github.io">&lt&gt Code</a>
+                <p>
+                I have not done any web development before but there is a course in front-end development that I really want to do so I am trying to get proficient with the basics of HTML and CSS before it starts. This website is the result so far. Obviously it is pretty basic and rough around the edges but it is a work in progress. I have some experience with JavaScript already so I hope to try out integrating some script elements before long.
+                </p>
             </div>
             <div id="lanterns">
                 <h2>Lanterns</h2>
+                <a class="code-link" href="https://github.com/josiefinis/touchLanterns">&lt&gt Code</a>
+                <p>
+                I have a number of LED tea light candles and wanted a way to turn them on and off all together, using any one of them as the switch. My idea was to use capacitive touch sensing so that each light can be controlled individually with a simple touch. With a longer touch the neighbouring lights should also turn on and then their neighbours and so on, like a chain of signal beacons lighting up to warn of an invading armada. I also wanted the lights to turn off automatically at slightly different random times around four hours later, as though they were real candles. 
 
+                <p>
+                I used an Arduino UNO controller and made two iterations. The first was very simple and minimalistic. I wanted to prototype a design that could be implemented with a simple electronic circuit. This iteration was a simple state machine where the state of each light, a counter, and a couple of flags were stored in a single byte. 
+                </p>
+                <p>
+                For the second iteration I wanted to be able to vary the brightness of each light. I wanted each light to slowly dim over time before going out and for there to be some variation in brightness between the diffent lights. I feel this gives a more naturalistic and aesthetically pleasing appearance. I also wanted to be able to control the brightness of each light individually and all of them as a group. This presented some interesting technical and UX challenges given the limitations of the hardware. <!-- <a href="projects/lanterns.html">more</a> -->
+                </p>
             </div>
             <div id="airlock">
                 <h2>Airlock</h2>
+                <a class="code-link" href="https://github.com/josiefinis/stationeers">&lt&gt Code</a>
+                <p>
 
+                </p>
             </div>
             <div id="visual-odometry">
                 <h2>Visual Odometry</h2>
-
+                <p>
+                This project was for a course in Applied Estimation as part of the Systems Control and Robotics program at KTH. A significant part of this course was on using the <a href="https://en.wikipedia.org/wiki/Kalman_filter">Kalman filter</a> to estimate the position of a robot within a map by combining odometry and measurements to known landmarks. I used video input to generate both the odometry and to detect and locate landmarks relative to the robot.
+                </p>
             </div>
             <div id="quadcopter">
                 <h2>Quadcopter</h2>

@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>josiefinis projects</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../gh-pages.css">
+    </head>
+    <body>
+        <div id="top-nav-bar">
+            <a class="tnb-link" href="../index.html">home</a>
+            <a class="tnb-link" href="../projects.html">projects</a>
+            <a class="tnb-link" href="">about</a>
+            <a class="tnb-link" href="">contact</a>
+        </div>
+        <div class="container">
+            <h1>Lanterns</h1>
+                <!--
+                <p>
+                This presented some interesting techincal challenges. The output to the lights is digital so to vary the brighness I used <a href="https://en.wikipedia.org/wiki/Pulse-width_modulation">pulse-width modulation (PWM)</a>. The Arduino has built in PWM on some of its pins but the controller needs to controll 16 lights, which it does through a SIPO (serial-in-parallel-out) chip. The pulse edges need to be individually sequenced and sent to the chip at the correct times. The controller also needs to read the capacitive touch sensors. It uses an analog multiplexer to cycle through each sensor in turn. It takes a little time to read each sensor (the sensing is based on timing so this is pretty fixed) and it is important to read each sensor frequently so that there is no noticible delay between touching a sensor and seeing its effect. While the controller is reading a sensor it can't do anything else. In order to achieve a smooth graduation of brighness it is necessary to have a smooth graduation of pulse widths and desirable to be able to place the pulse edges freely within each period.
+                </p>
+                -->
+        </div>
+    </body>
+</html>
