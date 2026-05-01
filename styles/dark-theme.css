@@ -2,6 +2,16 @@
 
 /* Responsive styles cribbed from Browserstack (2025) */
 /* Global mobile styles (default) */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
     background-color: black;
     color: whitesmoke;
