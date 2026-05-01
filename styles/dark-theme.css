@@ -2,6 +2,10 @@
 
 /* Responsive styles cribbed from Browserstack (2025) */
 /* Global mobile styles (default) */
+:root {
+    --accent-color: hotpink;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -37,11 +41,16 @@ img {
 
 a {
     color: skyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #top-nav-bar {
     width: 100%;
-    background-color: hotpink;
+    background-color: var(--accent-color);
     color: white;
     position: fixed;
     top: 0px;
@@ -59,12 +68,18 @@ a {
 
 .code-link {
     color: white;
-    background-color: green;
+    background-color: var(--accent-color);
     text-decoration: none;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
+    border: 1px solid var(--accent-color);
+}
+
+.code-link:hover {
+    border: 1px solid white;
+    text-decoration: none;
 }
 
 /* Tablet View (min-width: 768px) */
