@@ -1,0 +1,96 @@
+[
+  {
+    "name": "bara Pannkakor",
+    "date": "2026-06-06",
+    "place": "Lexicon",
+    "image": {
+      "src": "/bara-pannkakor.png",
+      "alt": "",
+      "width": 560,
+      "height": 511
+    },
+    "tags": ["html", "css"],
+    "main_link": "https://josiefinis.github.io/recept/recept.html",
+    "links": [
+      {
+        "name": "page",
+        "icon": "web",
+        "href": "https://josiefinis.github.io/recept/recept.html"
+      },
+      {
+        "name": "code",
+        "icon": "code",
+        "href": "https://github.com/josiefinis/recept"
+      }
+    ],
+    "description": "Semantic HTML, CUBE css, flex, grid, specificity, media and container queries, CSS custom properties (variables), forms."
+  },
+  {
+    "name": "Evently",
+    "date": "2026-06-12",
+    "place": "Lexicon",
+    "image": {
+      "src": "/evently.png",
+      "alt": "",
+      "width": 1023,
+      "height": 1008
+    },
+    "tags": ["html", "css"],
+    "main_link": "https://josiefinis.github.io/Evently-2026/",
+    "links": [
+      {
+        "name": "page",
+        "icon": "web",
+        "href": "https://josiefinis.github.io/Evently-2026/"
+      },
+      {
+        "name": "code",
+        "icon": "code",
+        "href": "https://github.com/josiefinis/Evently-2026"
+      }
+    ],
+    "description": "Assessment, solo project covering everything learned during the previous project. Recreate website from image and video references. Responsive, semantic, accessible."
+  },
+  {
+    "name": "Task Tracker",
+    "date": "2026-07-08",
+    "place": "Lexicon",
+    "image": {
+      "src": "/task-tracker.png",
+      "alt": "",
+      "width": 1024,
+      "height": 992
+    },
+    "tags": ["typescript"],
+    "main_link": "https://josiefinis.github.io/task-tracker/",
+    "links": [
+      {
+        "name": "code",
+        "icon": "code",
+        "href": "https://github.com/josiefinis/task-tracker"
+      }
+    ],
+    "description": "Introduction to TypeScript. DOM manipulation, responsive, semantic HTML, keyboard navigation."
+  },
+  {
+    "name": "JosifiniX",
+    "date": "2026-07-21",
+    "place": "Lexicon",
+    "image": {
+      "src": "/josifinix.png",
+      "alt": "",
+      "width": 1023,
+      "height": 996
+    },
+    "tags": ["nextjs", "react", "typescript", "tailwind"],
+    "main_link": "https://github.com/josiefinis/nextjs-intro",
+    "links": [
+      {
+        "name": "code",
+        "icon": "code",
+        "href": "https://github.com/josiefinis/nextjs-intro"
+      }
+    ],
+    "description": "Introduction to React and Next.js. Basic structure of a Next.js app router project, Next.js naming conventions, Components, props and params, Built in components Link and Image, Basic routing, Conditional rendering, Dynamic routes and dynamic metadata, Fetch API with REST, Error handling, URL State Management with searchParams in server components."
+  }
+]
