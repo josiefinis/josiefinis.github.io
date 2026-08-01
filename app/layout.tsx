@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist_Mono, Josefin_Sans } from "next/font/google";
+import { Geist_Mono, Josefin_Sans, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const josefinSans = Josefin_Sans({
@@ -7,8 +7,8 @@ const josefinSans = Josefin_Sans({
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
 });
 
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${josefinSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${josefinSans.variable} ${montserrat.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <a
