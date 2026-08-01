@@ -1,5 +1,6 @@
 import ProjectCard from "@/components/project-card";
 import data from "@/data/projects.json";
+import styles from "./projects.module.css";
 
 export default function Projects() {
   data.sort(
@@ -8,11 +9,14 @@ export default function Projects() {
       new Date(a.date as string).getTime(),
   );
   return (
-    <section aria-labelledby="section-heading" className="space-y-[1em]">
-      <h2 id="section-heading" className="font-display text-8xl">
+    <section
+      aria-labelledby="section-heading"
+      className="space-y-[1em] mx-fluid"
+    >
+      <h2 id="section-heading" className="font-display text-fluid-3xl">
         Projects
       </h2>
-      <div className="grid grid-cols-4">
+      <div className={styles.grid}>
         {data.map((project) => {
           const {
             name,
