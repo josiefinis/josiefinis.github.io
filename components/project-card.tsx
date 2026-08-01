@@ -41,7 +41,7 @@ export default function ProjectCard({
   return (
     <article
       aria-labelledby="heading"
-      className="relative flex flex-col gap-2 *:not-last:not-[.order-first]:mx-4 | m-3 rounded-2xl shadow-2xl | has-[.main-link:hover]:outline-2"
+      className="@container relative flex flex-col gap-2 *:not-last:not-[.order-first]:mx-4 | m-3 rounded-2xl shadow-2xl | has-[.main-link:hover]:outline-2"
     >
       <header className="mbs-4">
         <a
@@ -49,12 +49,14 @@ export default function ProjectCard({
           target="_blank"
           className="main-link after:absolute after:inset-0"
         >
-          <h3 id="heading" className="font-display text-5xl">
+          <h3 id="heading" className="font-display text-fluid-4xl">
             {heading}
           </h3>
         </a>
         <div className="flex justify-between items-center mbs-4">
-          <time dateTime={date}>{date}</time>
+          <time dateTime={date} className="text-fluid-2xl">
+            {date}
+          </time>
           <Tag key={place} name={place} />
         </div>
       </header>
@@ -65,7 +67,7 @@ export default function ProjectCard({
         height={height}
         className="order-first inline-full aspect-square object-cover rounded-ss-2xl rounded-se-2xl"
       />
-      <p className="mbs-4">{children}</p>
+      <p className="text-fluid-xl mbs-4">{children}</p>
       <div className="flex justify-start gap-3 | mbs-4">
         {tags.map((tag) => (
           <Tag key={tag} name={tag} className="max-inline-10" />
