@@ -9,19 +9,17 @@ export default function Hero() {
           <a
             href="https://github.com/josiefinis"
             target="_blank"
-            aria-label="github"
             className="flex items-center gap-6 block-12 text-3xl hover:underline hover:underline-offset-12"
           >
-            <Icon name="githubWhite" />
+            <Icon name="githubWhite" alt="Github" />
             <span>josiefinis</span>
           </a>
           <a
             href="https://www.linkedin.com/in/josefin-wall-a513a4408/"
             target="_blank"
-            aria-label="linkedin"
             className="flex items-center gap-4 block-12 text-3xl hover:underline hover:underline-offset-12"
           >
-            <Icon name="linkedinWhite" />
+            <Icon name="linkedinWhite" alt="LinkedIn" />
             <span>Josefin Wall</span>
           </a>
         </div>

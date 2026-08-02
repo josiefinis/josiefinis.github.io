@@ -82,7 +82,7 @@ export default function ProjectCard({
               target="_blank"
               className="p-2 rounded-ss-2xl rounded-ee-2xl hover:outline-2 relative z-10"
             >
-              <Icon name={link.icon} />
+              <Icon name={link.icon} alt={link.name} />
             </a>
           ))}
         </div>

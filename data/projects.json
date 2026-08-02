@@ -9,7 +9,7 @@
       "width": 1420,
       "height": 1077
     },
-    "tags": ["html", "css"],
+    "tags": ["HTML5", "CSS3"],
     "main_link": "https://josiefinis.github.io/recept/recept.html",
     "links": [
       {
@@ -31,11 +31,11 @@
     "place": "Lexicon",
     "image": {
       "src": "/evently.png",
-      "alt": "The top half of the events website page, showing navigation bar, hero, search form, and cards for popular events.",
+      "alt": "The top half of the events website, showing navigation bar, hero, search form, and cards for popular events.",
       "width": 1023,
       "height": 1008
     },
-    "tags": ["html", "css"],
+    "tags": ["HTML5", "CSS3"],
     "main_link": "https://josiefinis.github.io/Evently-2026/",
     "links": [
       {
@@ -61,7 +61,7 @@
       "width": 1024,
       "height": 992
     },
-    "tags": ["typescript"],
+    "tags": ["TypeScript"],
     "main_link": "https://josiefinis.github.io/task-tracker/",
     "links": [
       {
@@ -83,11 +83,11 @@
     "place": "Lexicon",
     "image": {
       "src": "/josifinix.png",
-      "alt": "A music website focused on the hero image of a winged heart against the backdrop of a smokey, pink sky and falling embers.",
+      "alt": "A music website focused on the hero image of a winged heart against a smokey, pink sky and falling embers.",
       "width": 1023,
       "height": 996
     },
-    "tags": ["nextjs", "react", "typescript", "tailwind"],
+    "tags": ["Nextjs", "React", "TypeScript", "Tailwind"],
     "main_link": "https://github.com/josiefinis/nextjs-intro",
     "links": [
       {
@@ -101,14 +101,14 @@
   {
     "name": "Josefin Wall",
     "date": "2026-08-02",
-    "place": "home",
+    "place": "Home",
     "image": {
       "src": "/josefin-wall.png",
       "alt": "This website showing the project cards, including recursively this image.",
       "width": 1020,
       "height": 996
     },
-    "tags": ["nextjs", "react", "typescript", "tailwind"],
+    "tags": ["Nextjs", "React", "TypeScript", "Tailwind"],
     "main_link": "https://github.com/josiefinis/josiefinis.github.io",
     "links": [
       {

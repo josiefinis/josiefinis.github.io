@@ -10,6 +10,7 @@ import linkedin from "@/public/in-logo/LI-In-Bug.png";
 
 interface IconProps {
   name: string;
+  alt: string;
   className?: string;
 }
 
@@ -24,11 +25,11 @@ const icons = new Map([
   ["linkedin", linkedin],
 ]);
 
-export default function Icon({ name, className }: IconProps) {
+export default function Icon({ name, alt, className }: IconProps) {
   return (
     <Image
       src={icons.get(name)}
-      alt={name}
+      alt={alt}
       className={`block-full inline-auto inline ${className}`}
     />
   );

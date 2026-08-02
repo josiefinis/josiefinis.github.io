@@ -10,14 +10,14 @@ import tailwind from "@/public/tailwind.svg";
 import nextjs from "@/public/NEXTJS/icon/dark-background/nextjs-icon-dark-background.svg";
 
 const tags = new Map([
-  ["home", blank],
+  ["Home", blank],
   ["Lexicon", lexicon],
-  ["html", html],
-  ["css", css],
-  ["typescript", typescript],
-  ["react", react],
-  ["tailwind", tailwind],
-  ["nextjs", nextjs],
+  ["HTML5", html],
+  ["CSS3", css],
+  ["TypeScript", typescript],
+  ["React", react],
+  ["Tailwind", tailwind],
+  ["Nextjs", nextjs],
 ]);
 
 interface TagProps {
