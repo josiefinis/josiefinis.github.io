@@ -8,6 +8,7 @@ export default function Hero() {
         <div className="flex flex-col items-start justify-end gap-8">
           <a
             href="https://github.com/josiefinis"
+            target="_blank"
             aria-label="github"
             className="flex items-center gap-6 block-12 text-3xl hover:underline hover:underline-offset-12"
           >
@@ -16,6 +17,7 @@ export default function Hero() {
           </a>
           <a
             href="https://www.linkedin.com/in/josefin-wall-a513a4408/"
+            target="_blank"
             aria-label="linkedin"
             className="flex items-center gap-4 block-12 text-3xl hover:underline hover:underline-offset-12"
           >
