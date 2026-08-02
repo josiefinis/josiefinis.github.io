@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist_Mono, Josefin_Sans, Montserrat } from "next/font/google";
+import { Josefin_Sans, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const josefinSans = Josefin_Sans({
