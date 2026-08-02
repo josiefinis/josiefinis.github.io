@@ -14,11 +14,6 @@
     "main_link": "https://josiefinis.github.io/recept/recept.html",
     "links": [
       {
-        "name": "page",
-        "icon": "web",
-        "href": "https://josiefinis.github.io/recept/recept.html"
-      },
-      {
         "name": "code",
         "icon": "code",
         "href": "https://github.com/josiefinis/recept"
@@ -41,11 +36,6 @@
     "main_link": "https://josiefinis.github.io/Evently-2026/",
     "links": [
       {
-        "name": "page",
-        "icon": "web",
-        "href": "https://josiefinis.github.io/Evently-2026/"
-      },
-      {
         "name": "code",
         "icon": "code",
         "href": "https://github.com/josiefinis/Evently-2026"
@@ -67,11 +57,6 @@
     "tags": ["TypeScript"],
     "main_link": "https://josiefinis.github.io/task-tracker/",
     "links": [
-      {
-        "name": "page",
-        "icon": "web",
-        "href": "https://josiefinis.github.io/task-tracker/"
-      },
       {
         "name": "code",
         "icon": "code",
