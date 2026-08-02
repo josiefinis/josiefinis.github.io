@@ -23,7 +23,7 @@
         "href": "https://github.com/josiefinis/recept"
       }
     ],
-    "description": "Semantic HTML, CUBE css, flex, grid, specificity, media and container queries, CSS custom properties (variables), forms."
+    "description": "WCAG, Semantic HTML, screenreader, keyboard navigation, testing with WAVE and Lighthouse, Clean CSS, CUBE CSS, Box model, flex, grid, fluid design, color systems, specificity, media and container queries, CSS custom properties (variables), forms."
   },
   {
     "name": "Evently",
@@ -65,12 +65,17 @@
     "main_link": "https://josiefinis.github.io/task-tracker/",
     "links": [
       {
+        "name": "page",
+        "icon": "web",
+        "href": "https://josiefinis.github.io/task-tracker/"
+      },
+      {
         "name": "code",
         "icon": "code",
         "href": "https://github.com/josiefinis/task-tracker"
       }
     ],
-    "description": "Introduction to TypeScript. DOM manipulation, responsive, semantic HTML, keyboard navigation."
+    "description": "Introduction to TypeScript. Variables, types, interfaces, program logic, functions, objects, DOM manipulation, events and interaction, forms, validation, local storage, modules."
   },
   {
     "name": "JosifiniX",
@@ -92,5 +97,31 @@
       }
     ],
     "description": "Introduction to React and Next.js. Basic structure of a Next.js app router project, Next.js naming conventions, Components, props and params, Built in components Link and Image, Basic routing, Conditional rendering, Dynamic routes and dynamic metadata, Fetch API with REST, Error handling, URL State Management with searchParams in server components."
+  },
+  {
+    "name": "Josefin Wall",
+    "date": "2026-08-02",
+    "place": "home",
+    "image": {
+      "src": "/josefin-wall.png",
+      "alt": "",
+      "width": 1020,
+      "height": 996
+    },
+    "tags": ["nextjs", "react", "typescript", "tailwind"],
+    "main_link": "https://github.com/josiefinis/josiefinis.github.io",
+    "links": [
+      {
+        "name": "issues",
+        "icon": "adjust",
+        "href": "https://github.com/josiefinis/josiefinis.github.io/issues"
+      },
+      {
+        "name": "code",
+        "icon": "code",
+        "href": "https://github.com/josiefinis/josiefinis.github.io"
+      }
+    ],
+    "description": "Static website built with Next.js and React to showcase my projects. Much like me a work in progress. View the code and outstanding issues via the links below."
   }
 ]
