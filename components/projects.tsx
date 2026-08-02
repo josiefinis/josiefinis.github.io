@@ -13,9 +13,11 @@ export default function Projects() {
       aria-labelledby="section-heading"
       className="space-y-[1em] mx-fluid"
     >
-      <h2 id="section-heading" className="font-display text-fluid-3xl">
-        Projects
-      </h2>
+      <div className="@container md:inline-1/2">
+        <h2 id="section-heading" className="font-display text-fluid-4xl">
+          Projects
+        </h2>
+      </div>
       <div className={styles.grid}>
         {data.map((project) => {
           const {
