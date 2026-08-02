@@ -43,7 +43,7 @@ export default function ProjectCard({
   return (
     <article
       aria-labelledby={`project-heading-${id}`}
-      className="@container relative flex flex-col gap-2 *:not-last:not-[.order-first]:mx-4 | m-3 rounded-2xl shadow-2xl | has-[.main-link:hover]:outline-2 has-[.main-link:focus-visible]:outline-2"
+      className="@container relative flex flex-col gap-2 *:not-last:not-[.order-first]:mx-4 | m-3 rounded-2xl bg-gray-950 shadow-2xl shadow-black | has-[.main-link:hover]:outline-2 has-[.main-link:focus-visible]:outline-2"
     >
       <header className="mbs-4">
         <a
@@ -78,8 +78,8 @@ export default function ProjectCard({
           <Tag key={tag} name={tag} className="max-inline-10" />
         ))}
       </div>
-      <footer className="mbs-auto">
-        <div className="flex justify-end">
+      <footer className="mbs-auto flex justify-end">
+        <div className="flex justify-end bg-gray-900 inset-shadow-sm inset-shadow-black rounded-ss-2xl rounded-ee-2xl">
           {links.map((link) => (
             <a
               key={link.name}
