@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Bara pannkakor",
     "date": "2026-06-06",
     "place": "Lexicon",
@@ -26,6 +27,7 @@
     "description": "Learning project for HTML and CSS. This project uses modern semantic HTML, conforming to WCAG, and navigable via screenreader and keyboard. It uses modern CSS including flex, grid, and media and container queries to produce a responsive design. The code is structured according to the CUBE naming convention."
   },
   {
+    "id": 2,
     "name": "Evently",
     "date": "2026-06-12",
     "place": "Lexicon",
@@ -52,6 +54,7 @@
     "description": "Individual assessment applying everything learned during the previous project, Bara pannkakor. The goal was to faithfully reproduce a website from image and video references with emphasis on responsive design, accessibility, and clean, structured code."
   },
   {
+    "id": 3,
     "name": "Task Tracker",
     "date": "2026-07-08",
     "place": "Lexicon",
@@ -78,6 +81,7 @@
     "description": "Introduction to TypeScript. This simple app was developed as a means to learning basic TypeScript, including types, interfaces, DOM manipulation, events and interaction, forms and validation, local storage, and modules."
   },
   {
+    "id": 4,
     "name": "JosifiniX",
     "date": "2026-07-21",
     "place": "Lexicon",
@@ -99,6 +103,7 @@
     "description": "Introduction to React and Next.js, covering the basic structure of a Next.js app router project, Next.js naming conventions, components, conditional rendering, dynamic routes and dynamic metadata, fetch API with REST, error handling, and URL State Management with searchParams."
   },
   {
+    "id": 5,
     "name": "Josefin Wall",
     "date": "2026-08-02",
     "place": "Home",

@@ -21,6 +21,7 @@ export default function Projects() {
       <div className={styles.grid}>
         {data.map((project) => {
           const {
+            id,
             name,
             date,
             place,
@@ -32,7 +33,8 @@ export default function Projects() {
           } = project;
           return (
             <ProjectCard
-              key={name}
+              key={id}
+              id={id}
               heading={name}
               date={date}
               place={place}

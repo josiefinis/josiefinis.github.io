@@ -17,6 +17,7 @@ interface ImageProps {
 }
 
 interface ProjectCardProps {
+  id: number;
   heading: string;
   date: string;
   place: string;
@@ -28,6 +29,7 @@ interface ProjectCardProps {
 }
 
 export default function ProjectCard({
+  id,
   heading,
   date,
   place,
@@ -40,7 +42,7 @@ export default function ProjectCard({
   const { src, alt, width, height } = image;
   return (
     <article
-      aria-labelledby="heading"
+      aria-labelledby={`project-heading-${id}`}
       className="@container relative flex flex-col gap-2 *:not-last:not-[.order-first]:mx-4 | m-3 rounded-2xl shadow-2xl | has-[.main-link:hover]:outline-2"
     >
       <header className="mbs-4">
@@ -49,7 +51,10 @@ export default function ProjectCard({
           target="_blank"
           className="main-link after:absolute after:inset-0"
         >
-          <h3 id="heading" className="font-display text-fluid-4xl">
+          <h3
+            id={`project-heading-${id}`}
+            className="font-display text-fluid-4xl"
+          >
             {heading}
           </h3>
         </a>
