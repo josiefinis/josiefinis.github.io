@@ -5,9 +5,9 @@
     "place": "Lexicon",
     "image": {
       "src": "/bara-pannkakor.png",
-      "alt": "",
-      "width": 560,
-      "height": 511
+      "alt": "A recipe website with navigation bar and cards for various pancake recipes.",
+      "width": 1420,
+      "height": 1077
     },
     "tags": ["html", "css"],
     "main_link": "https://josiefinis.github.io/recept/recept.html",
@@ -31,7 +31,7 @@
     "place": "Lexicon",
     "image": {
       "src": "/evently.png",
-      "alt": "",
+      "alt": "The top half of the events website page, showing navigation bar, hero, search form, and cards for popular events.",
       "width": 1023,
       "height": 1008
     },
@@ -57,7 +57,7 @@
     "place": "Lexicon",
     "image": {
       "src": "/task-tracker.png",
-      "alt": "",
+      "alt": "A simple looking web app in pastel pink showing cards for a number of incomplete and complete tasks.",
       "width": 1024,
       "height": 992
     },
@@ -83,7 +83,7 @@
     "place": "Lexicon",
     "image": {
       "src": "/josifinix.png",
-      "alt": "",
+      "alt": "A music website focused on the hero image of a winged heart against the backdrop of a smokey, pink sky and falling embers.",
       "width": 1023,
       "height": 996
     },
@@ -104,7 +104,7 @@
     "place": "home",
     "image": {
       "src": "/josefin-wall.png",
-      "alt": "",
+      "alt": "This website showing the project cards, including recursively this image.",
       "width": 1020,
       "height": 996
     },
