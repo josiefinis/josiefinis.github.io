@@ -14,6 +14,16 @@
     "main_link": "https://josiefinis.github.io/recept/recept.html",
     "links": [
       {
+        "name": "recipe",
+        "icon": "web",
+        "href": "https://josiefinis.github.io/recept/enkelt-recept-pa-pannkakor.html"
+      },
+      {
+        "name": "form",
+        "icon": "web",
+        "href": "https://josiefinis.github.io/recept/create-account.html"
+      },
+      {
         "name": "code",
         "icon": "code",
         "href": "https://github.com/josiefinis/recept"
