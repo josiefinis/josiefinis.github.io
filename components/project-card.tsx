@@ -76,12 +76,14 @@ export default function ProjectCard({
       <footer className="mbs-auto">
         <div className="flex justify-end">
           {links.map((link) => (
-            <Icon
+            <a
               key={link.name}
-              name={link.icon}
               href={link.href}
-              className="relative z-10"
-            />
+              target="_blank"
+              className="p-2 rounded-ss-2xl rounded-ee-2xl hover:outline-2 relative z-10"
+            >
+              <Icon name={link.icon} />
+            </a>
           ))}
         </div>
       </footer>
