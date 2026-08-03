@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Josefin_Sans, Montserrat } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/footer";
 
 const josefinSans = Josefin_Sans({
   variable: "--font-josefin-sans",
@@ -35,6 +36,7 @@ export default function RootLayout({
           Skip to content
         </a>
         <main id="main">{children}</main>
+        <Footer />
       </body>
     </html>
   );
