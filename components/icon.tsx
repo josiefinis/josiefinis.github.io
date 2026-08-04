@@ -18,6 +18,7 @@ const icons = new Map([
   ["code", code],
   ["web", web],
   ["adjust", adjust],
+  ["github", githubWhite],
   ["githubWhite", githubWhite],
   ["githubBlack", githubBlack],
   ["linkedinWhite", linkedinWhite],
