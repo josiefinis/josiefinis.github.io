@@ -1,0 +1,16 @@
+{
+  "profiles": [
+    {
+      "name": "github",
+      "display_name": "GitHub",
+      "username": "josiefinis",
+      "href": "https://github.com/josiefinis"
+    },
+    {
+      "name": "linkedin",
+      "display_name": "LinkedIn",
+      "username": "Josefin Wall",
+      "href": "https://www.linkedin.com/in/josefin-wall-a513a4408/"
+    }
+  ]
+}
