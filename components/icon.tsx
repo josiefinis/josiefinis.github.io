@@ -6,7 +6,6 @@ import githubWhite from "@/public/github/GitHub_Invertocat_White.svg";
 import githubBlack from "@/public/github/GitHub_Invertocat_Black.svg";
 import linkedinWhite from "@/public/in-logo/InBug-White.png";
 import linkedinBlack from "@/public/in-logo/InBug-White.png";
-import linkedin from "@/public/in-logo/LI-In-Bug.png";
 
 interface IconProps {
   name: string;
@@ -23,7 +22,7 @@ const icons = new Map([
   ["githubBlack", githubBlack],
   ["linkedinWhite", linkedinWhite],
   ["linkedinBlack", linkedinBlack],
-  ["linkedin", linkedin],
+  ["linkedin", linkedinWhite],
 ]);
 
 export default function Icon({ name, alt, className }: IconProps) {
@@ -31,7 +30,7 @@ export default function Icon({ name, alt, className }: IconProps) {
     <Image
       src={icons.get(name)}
       alt={alt}
-      className={`block-full inline-auto inline ${className}`}
+      className={`inline-auto inline ${className}`}
     />
   );
 }
