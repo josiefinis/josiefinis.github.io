@@ -43,3 +43,7 @@ body {
 .mx-fluid {
   margin-inline: clamp(0.5rem, 2cqi, 3rem);
 }
+
+.px-fluid {
+  padding-inline: clamp(0.5rem, 2cqi, 3rem);
+}

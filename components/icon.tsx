@@ -30,7 +30,7 @@ export default function Icon({ name, alt, className }: IconProps) {
     <Image
       src={icons.get(name)}
       alt={alt}
-      className={`inline-auto inline ${className}`}
+      className={`object-cover object-top-left inline-auto ${className}`}
     />
   );
 }
