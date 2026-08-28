@@ -112,9 +112,9 @@
     "main_link": "https://github.com/josiefinis/josiefinis.github.io",
     "links": [
       {
-        "name": "issues",
-        "icon": "adjust",
-        "href": "https://github.com/josiefinis/josiefinis.github.io/issues"
+        "name": "kanban",
+        "icon": "kanban",
+        "href": "https://github.com/users/josiefinis/projects/2/views/1"
       },
       {
         "name": "code",
