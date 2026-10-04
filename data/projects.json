@@ -123,5 +123,32 @@
       }
     ],
     "description": "Static website built with Next.js and React to showcase my projects. Much like me, a work in progress. View the code and outstanding issues via the links below."
+  },
+  {
+    "id": 6,
+    "name": "Naturandar",
+    "date": "2026-09-17",
+    "place": "Lexicon",
+    "image": {
+      "src": "/naturandar.png",
+      "alt": "A website with an art nouveau asthetic. Three cards show observations of a lindorm, a gruvtroll and a nixa.",
+      "width": 1317,
+      "height": 917
+    },
+    "tags": ["Nextjs", "React", "TypeScript", "Tailwind"],
+    "main_link": "https://github.com/josiefinis/naturandar",
+    "links": [
+      {
+        "name": "kanban",
+        "icon": "kanban",
+        "href": "https://github.com/users/josiefinis/projects/3"
+      },
+      {
+        "name": "code",
+        "icon": "code",
+        "href": "https://github.com/josiefinis/naturandar"
+      }
+    ],
+    "description": "A website collecting observations of mythic creatures and other entities of the natural environment. Features REST API with JSON server, API mutation with server actions, form validation with Zod, focus management with React hooks."
   }
 ]
